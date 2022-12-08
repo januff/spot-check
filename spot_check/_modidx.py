@@ -6,5 +6,7 @@ d = { 'settings': { 'branch': 'main',
                 'git_url': 'https://github.com/januff/spot-check',
                 'lib_path': 'spot_check'},
   'syms': { 'spot_check.core': {'spot_check.core.foo': ('core.html#foo', 'spot_check/core.py')},
-            'spot_check.edit': { 'spot_check.edit.foo': ('edit.html#foo', 'spot_check/edit.py'),
+            'spot_check.edit': { 'spot_check.edit.HelloSayer': ('edit.html#hellosayer', 'spot_check/edit.py'),
+                                 'spot_check.edit.HelloSayer.__init__': ('edit.html#hellosayer.__init__', 'spot_check/edit.py'),
+                                 'spot_check.edit.HelloSayer.say': ('edit.html#hellosayer.say', 'spot_check/edit.py'),
                                  'spot_check.edit.say_hello': ('edit.html#say_hello', 'spot_check/edit.py')}}}
