@@ -5,4 +5,6 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://januff.github.io',
                 'git_url': 'https://github.com/januff/spot-check',
                 'lib_path': 'spot_check'},
-  'syms': {'spot_check.core': {'spot_check.core.foo': ('core.html#foo', 'spot_check/core.py')}}}
+  'syms': { 'spot_check.core': {'spot_check.core.foo': ('core.html#foo', 'spot_check/core.py')},
+            'spot_check.edit': { 'spot_check.edit.foo': ('edit.html#foo', 'spot_check/edit.py'),
+                                 'spot_check.edit.say_hello': ('edit.html#say_hello', 'spot_check/edit.py')}}}
