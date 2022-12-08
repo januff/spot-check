@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "spot-check"
+  site-url: "https://januff.github.io/spot-check"
+  description: "Spotify collection comparison tool"
+  repo-branch: main
+  repo-url: "https://github.com/januff/spot-check"
