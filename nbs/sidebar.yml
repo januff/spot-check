@@ -3,3 +3,11 @@ website:
     contents:
       - index.ipynb
       - 00_edit.ipynb
+      - section: Blog
+        contents:
+          - blog/index.qmd
+          - section: Posts
+            contents:
+              - section: Spot Check Intro
+                contents:
+                  - blog/posts/spot-check-intro/index.qmd

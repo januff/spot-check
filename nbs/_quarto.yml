@@ -12,6 +12,9 @@ website:
   open-graph: true
   repo-actions: [issue]
   navbar:
+    left:
+      - text: "Blog"
+        href: blog/index.qmd
     background: dark
     search: true
   sidebar:
